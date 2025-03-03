@@ -10,15 +10,15 @@ const Header = () => {
     const dispatch = useDispatch();
 
     return (
-        <div className={`flex justify-between bg-${theme}-surface text-${theme}-textPrimary px-4 py-2 shadow-md sticky top-0`}>
+        <div className={`flex justify-between bg-${theme}-surface text-${theme}-textPrimary px-4 shadow-md sticky top-0`}>
             {/* Navigation Links */}
             <div>
                 <ul className="flex p-2 m-2 space-x-6">
-                   <Link to='/'><li className={`hover:text-${theme}-primary transition-colors`}>Home</li></Link> 
-                   <Link to="/about"><li className={`hover:text-${theme}-primary transition-colors`}>About</li></Link> 
-                   <Link to="/contact"><li className={`hover:text-${theme}-primary transition-colors`}>Contact</li></Link> 
-                   <Link to="/project"><li className={`hover:text-${theme}-primary transition-colors`}>Projects</li></Link> 
-                    
+                    <Link to='/'><li className={`hover:text-${theme}-primary transition-colors`}>Home</li></Link>
+                    <Link to="/about"><li className={`hover:text-${theme}-primary transition-colors`}>About</li></Link>
+                    <Link to="/contact"><li className={`hover:text-${theme}-primary transition-colors`}>Contact</li></Link>
+                    <Link to="/project"><li className={`hover:text-${theme}-primary transition-colors`}>Projects</li></Link>
+
                 </ul>
             </div>
 

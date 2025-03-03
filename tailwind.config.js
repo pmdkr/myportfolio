@@ -32,5 +32,5 @@ module.exports = {
       pattern: /(bg|text|border)-(light|dark)-(primary|secondary|background|surface|textPrimary|textSecondary|border)/,
     },
   ],
-  plugins: [],
+  plugins: [require("daisyui")],
 };
